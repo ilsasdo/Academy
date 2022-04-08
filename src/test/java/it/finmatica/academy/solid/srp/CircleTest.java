@@ -19,17 +19,6 @@ public class CircleTest {
         Assertions.assertEquals(Math.PI, area, "L'area di un cerchio di raggio 1 è 3.14");
     }
 
-//    @Test
-//    public void non_e_possibile_inserire_raggi_inferiori_a_zero() {
-//        // setup
-//        try {
-//            new Circle(-1);
-//            Assertions.fail("La classe Circle non deve essere istanziabile con raggi < 0");
-//        } catch (IllegalArgumentException e) {
-//            Assertions.assertEquals("un raggio non può essere negativo", e.getMessage());
-//        }
-//    }
-//
     // issue: 1234, segnalato dal cliente pinco pallo
     @Test
     public void non_e_possibile_inserire_raggi_inferiori_a_zero_2() {
