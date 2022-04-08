@@ -16,7 +16,7 @@ public class CircleTest {
         double area = circle.area();
 
         // expect
-        Assertions.assertEquals(3.14, area, "L'area di un cerchio di raggio 1 è 3.14");
+        Assertions.assertEquals(Math.PI, area, "L'area di un cerchio di raggio 1 è 3.14");
     }
 
 //    @Test
