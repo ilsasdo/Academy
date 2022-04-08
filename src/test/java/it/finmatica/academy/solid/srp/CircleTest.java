@@ -4,6 +4,10 @@ import it.finmatica.academy.solid.srp.Right.Circle;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
+/**
+ * Aggiungo un commento
+ *
+ */
 public class CircleTest {
 
     // given ___ expect ___
